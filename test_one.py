@@ -7,7 +7,7 @@ class myClassTest(unittest.TestCase):
         
         a = 2
         b = 3
-        self.assertEqual(a+b, 4)
+        self.assertEqual(a+b, 5)
         
 if __name__ == '__main__':
     suit = unittest.TestLoader().loadTestsFromTestCase(myClassTest)
