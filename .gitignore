@@ -1,0 +1,49 @@
+  GNU nano 2.5.3                                                          File: .gitignore                                                                                                                          
+
+#[ PYTHON ]
+*.pyc
+*.*~
+
+#[ DJANGO ]
+media/
+files/assets/
+*.log
+logs/
+
+#[ VIRTUAL ENVIRONMENT ]
+venv
+
+#[ ECLIPSE ]
+.project
+.settings
+.pydevproject
+
+#[ ENVIRONMENT SETTINGS ]
+development/
+development.py
+
+#[ PROJECT ]
+cachedb/
+Interests/
+static/css/production/*.css
+static/js/production/*.js
+
+#[ OPERATING SYSTEM ]
+.DS_Store
+
+#[ DATABASE ]
+*.gz
+
+#[MISC]
+*.swp
+
+#[SASS]
+.sass-cache
+*.css.map
+
+#[ SUBLIME ]
+*.sublime-project
+*.sublime-workspace
+
+#[ TESTS ]
+.coverage
